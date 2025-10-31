@@ -13,7 +13,7 @@ public class SearchTest {
     @BeforeMethod
     public void setup() {
         driver = DriverFactory.initDriver();
-        driver.get("https://www.apple.com");
+        driver.get("https://www.apple.com/in/");
         home = new HomePage(driver);
     }
 
